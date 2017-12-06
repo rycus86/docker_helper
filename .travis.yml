@@ -8,6 +8,8 @@ python:
 
 install: skip
 script:
+  # install coverage
+  - pip install coverage
   # install module
   - pip install . --upgrade
   # python tests
