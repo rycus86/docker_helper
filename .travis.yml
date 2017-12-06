@@ -25,6 +25,6 @@ jobs:
       provider: pypi
       user: rycus86
       password:
-        secure: TODO
+        secure: lKd7XCiQj9+A4l74aPN2PUsr/FiA2bSG1Qh4rOVw/CBC4bLkAXV+8tFlorCNmvL6JGbQFeT8Op4VsX63ANGFYdE2+04fJI9xkuZ1AK2DFgTQfYVSjzYV0D7bOCWolLjWrdwL6mLhgl/YwyhqvE6GAS7gZ5CL7U8QNgv42E+MYqeSF0pxeM+5JI2XhV+YEtL3TL2neAOa+cjEWlkCUvNyASVZQEncH1jeKyZ36OIvV3lVp/ZjH0007dt7Boaiwz6t3c4PNbwvkjMideUsfq+r1tK6pl3y6fwFjq0wnWJPzILZ2tVtNDTXmtEE+Osocbzb5slKIpkD+Gjr3X676OmldcuRSviERlUcQ682vP7juHHpC821sPeQ1f44MaE+NuGHkYB4zf4l29xknbE1qqKlQr7i87icD8slVsS5u064AY+LoWyI35IzV6U1iLPiaUD71uLb1mJtvTFGHXw550CYj6Z74CCFKhL4sdPI8U7porRn0ig9heWHDbXp6zOdjCsqnngDQOaVR5P2hgzm35QsuGy5R8XyUYvsjl+lBiYOLgbnJ0zJM/pv22BnU2TCGA92VcOJLRoi36KdiwxGsujqMwLIgzZnbyKmQLcbfuz/C2cLCc89bwLtOjxehxTHyAz6Oqcq5qN8CBiqn/IDxl4e4je0Dz10kdFtgwKuvtIGHUg=
       on:
         tags: true
