@@ -3,14 +3,14 @@ from distutils.core import setup
 setup(
     name='docker_helper',
     packages=['docker_helper'],
-    version='0.0.1',
+    version='0.0.2',
     description='Convenience utilities for Python applications in Docker containers',
     long_description=open('README.md').read(),
     license='MIT',
     author='Viktor Adam',
     author_email='rycus86@gmail.com',
     url='https://github.com/rycus86/docker_helper',
-    download_url='https://github.com/rycus86/docker_helper/archive/0.0.1.tar.gz',
+    download_url='https://github.com/rycus86/docker_helper/archive/0.0.2.tar.gz',
     keywords=['docker', 'container', 'cgroup', 'secret', 'config'],
     classifiers=[
         'Development Status :: 4 - Beta',

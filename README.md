@@ -4,12 +4,18 @@ Convenience utilities for Python applications in Docker containers.
 
 ## Functions
 
+- Get current container ID
+
 ```python
 get_current_container_id()
 ```
 
 Returns the ID of the container the application is currently running in,
 otherwise returns `None` if not running in a container.
+
+> This is done on a best-effort basis, guessed from the information in `/proc/self/cgroup`
+
+- Read configuration values
 
 ```python
 read_configuration(key, path=None, default=None,
